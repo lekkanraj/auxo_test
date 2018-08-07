@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className=" bg-primary">        
+        <div className=" bg-dark">        
             <Switch>        
               <Route exact path='/' component={Home} />
             </Switch>
